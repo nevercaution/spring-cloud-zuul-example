@@ -1,0 +1,7 @@
+
+zuul:
+  routes:
+   helloService:
+     path: /hello/**
+     stripPrefix: false
+     url: http://localhost:8080
